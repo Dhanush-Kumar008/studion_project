@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image:url(' https://c0.wallpaperflare.com/preview/317/998/348/architecture-asking-brainstorming-building.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center 20%;
+    
+}
+
+#overlay{
+    position: absolute;
+    background-color: black;
+    opacity: 0.7;
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    z-index:1;
+}
+
+#maindiv{
+    position: absolute;
+    z-index: 3;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding-top: 20px;
+    padding-left: 20px;
+    align-items: center;
+    margin-right: 10px;
+    gap: 1040px;
+    
+}
+
+.navbar h1{
+    font-size: xx-large;
+}
+
+.navdiv{
+    color: white;
+    text-decoration: none;
+    gap: 20px;
+}
+
+.subdiv{
+    color: white;
+    width: 800px;
+    margin-top: 170px;
+    padding-left: 20px;
+}
+
+.subdiv p{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.subdiv button{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #FF00FF;
+    color: whitesmoke;
+    border: none;
+    font-size: large;
+    transition: box-shadow 2s;
+
+
+}
+
+.subdiv button:hover{
+    box-shadow:5px 5px 5px 5px violet;
+
+}
+
+.seconddiv{
+    display: flex;
+    justify-content: space-between;
+}
+
+.popdiv{
+    background-color: whitesmoke;
+    margin-top: 80px;
+    margin-left: 200px;
+    margin-right: 115px;
+    padding: 50px;
+    width: 300px;
+    display: none;
+    
+
+    
+}
+
+.popdiv h2{
+    text-align: center;
+    margin-right: 30px;
+   
+}
+
+.popdiv p{
+    color:	#686868;
+    margin-top: 10px;
+   
+}
+
+.popdiv input{
+    width: 100px;
+}
+
+.popdiv div{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.inpdiv input{
+    margin-top: 20px;
+    height: 40px;
+    background-color:#EAEEE9 ;
+    border: none;
+    outline: none;
+    width: auto;
+}
+
+.popdiv div button{
+    margin-top: 20px;
+    background-color: #FF00FF;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    transition: box-shadow 2s;
+
+}
+
+.popdiv div button:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+#below{
+    margin-top: 56%;
+}
+
+#below h2{
+    color: black;
+    text-align: center;
+    font-weight: bolder;
+}
+
+#belowdiv{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 60px;
+
+}
+
+#belowdiv div{
+    flex-basis: 30%;
+    margin-right: 40px;
+    margin-bottom: 50px;
+    
+}
+
+#below div p{
+    margin-top: 10px;
+}
+
+
+
+
